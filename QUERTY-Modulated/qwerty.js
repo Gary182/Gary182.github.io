@@ -66,7 +66,7 @@ function setup() {
     sel2.changed(modChange);
 
     //Slider for Modulator Frequency
-    slider = createSlider(0, 50, 0, 1);
+    slider = createSlider(0, 25, 0, 1);
     slider.position(150, 19);
     slider.style('width', '80px');
 }
